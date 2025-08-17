@@ -1,3 +1,4 @@
+/*
 # Allow http
 resource "google_compute_firewall" "allow-http" {
   name    = "socat-fw-allow-http"
@@ -23,6 +24,7 @@ resource "google_compute_firewall" "allow-https" {
   source_ranges = ["0.0.0.0/0"]
   target_tags   = ["https-server"]
 }
+*/
 
 # allow ssh
 resource "google_compute_firewall" "allow-ssh" {
