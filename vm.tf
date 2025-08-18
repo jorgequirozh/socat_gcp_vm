@@ -43,6 +43,7 @@ resource "google_compute_instance" "gcp-ubnt-vm" {
   network_interface {
     network    = google_compute_network.vpc.name
     subnetwork = google_compute_subnetwork.network_subnet.name
+    #network_ip = google_compute_address.static_internal_ip.address
     access_config {
       network_tier = var.network_tier
     }

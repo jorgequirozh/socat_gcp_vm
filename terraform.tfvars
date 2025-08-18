@@ -8,7 +8,7 @@ gcp_auth_file = "auth/google-key.json"
 network-subnet-cidr = "10.0.10.0/24"
 
 # Linux VM
-vm_name          = "socat-vm"
+vm_name          = "vpn"
 vm_instance_type = "e2-micro"
 network_tier     = "STANDARD"
 user             = "jorge"
